@@ -1,0 +1,59 @@
+.tree-table-view {
+    -fx-tree-table-color: #008ABF;
+    /*-fx-font-size: 20;*/
+    -fx-tree-table-rippler-color: rgba(255, 0, 0, 0.9);
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected {
+    -fx-background-color: -fx-tree-table-color;
+    -fx-table-cell-border-color: -fx-tree-table-color;
+    -fx-alignment: center;
+
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell {
+    -fx-text-fill: white;
+}
+
+.tree-table-view .tree-table-cell {
+    -fx-border-width: 0 0 0 0;
+    -fx-padding: 20 0 17 0;
+    -fx-alignment: center;
+}
+
+.tree-table-view .column-header,
+.tree-table-view .column-header-background,
+.tree-table-view .column-header-background .filler {
+    -fx-background-color: TRANSPARENT;
+}
+
+
+.jfx-hamburger {
+    -fx-padding: 10.0;
+    -fx-spacing: 4px;
+    -fx-cursor: hand;
+}
+
+.jfx-hamburger StackPane {
+    -fx-pref-width: 30px;
+    -fx-pref-height: 4px;
+    -fx-background-color: #FFF;
+    -fx-background-radius: 5px;
+}
+
+.dial-btn {
+    -fx-background-color: #4555C9;
+    -fx-text-fill: #fff;
+    -fx-padding: 10;
+}
+
+.deptField {
+    -jfx-label-float: true;
+    -jfx-focus-color: #009884;
+    /*-fx-text-fill: #009884;*/
+    -fx-font-size: 16;
+}
+
+.gender-radio {
+    -jfx-selected-color: #ff0;
+}
